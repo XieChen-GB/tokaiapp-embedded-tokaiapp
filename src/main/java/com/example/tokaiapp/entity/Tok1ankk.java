@@ -1,5 +1,7 @@
 package com.example.tokaiapp.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -21,6 +23,11 @@ public class Tok1ankk {
     @Id
     @Column(name = "an_no")
     private String an_no;
+
+    @JsonIgnoreProperties("tok1ankkList")
+    @ManyToOne
+    @JoinColumn(name = "jyu_ji_cd", insertable = false, updatable = false)
+    private Tmk6jyou tmk6jyou;
 
     @ManyToOne
     @JoinColumn(name = "tk_cd")
@@ -48,6 +55,9 @@ public class Tok1ankk {
     public void setAn_no(String an_no) {
         this.an_no = an_no;
     }
+
+    public Tmk6jyou getTmk6jyou() { return tmk6jyou; }
+    public void setTmk6jyou(Tmk6jyou tmk6jyou) { this.tmk6jyou = tmk6jyou; }
 
     public Tmk1tkui getTmk1tkui() {
         return tmk1tkui;
