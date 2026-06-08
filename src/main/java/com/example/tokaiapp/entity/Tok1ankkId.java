@@ -1,9 +1,18 @@
 package com.example.tokaiapp.entity;
 
 import java.io.Serializable;
+import java.util.Objects;
 
-public class Tok1ankkId implements Serializable{
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+
+@Embeddable
+public class Tok1ankkId implements Serializable {
+
+    @Column(name = "jyu_ji_cd")
     private String jyu_ji_cd;
+
+    @Column(name = "an_no")
     private String an_no;
 
     public Tok1ankkId() {}
@@ -15,38 +24,21 @@ public class Tok1ankkId implements Serializable{
 
     public String getJyu_ji_cd() { return jyu_ji_cd; }
     public void setJyu_ji_cd(String jyu_ji_cd) { this.jyu_ji_cd = jyu_ji_cd; }
+
     public String getAn_no() { return an_no; }
     public void setAn_no(String an_no) { this.an_no = an_no; }
 
     @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((jyu_ji_cd == null) ? 0 : jyu_ji_cd.hashCode());
-        result = prime * result + ((an_no == null) ? 0 : an_no.hashCode());
-        return result;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Tok1ankkId that = (Tok1ankkId) o;
+        return Objects.equals(jyu_ji_cd, that.jyu_ji_cd)
+                && Objects.equals(an_no, that.an_no);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Tok1ankkId other = (Tok1ankkId) obj;
-        if (jyu_ji_cd == null) {
-            if (other.jyu_ji_cd != null)
-                return false;
-        } else if (!jyu_ji_cd.equals(other.jyu_ji_cd))
-            return false;
-        if (an_no == null) {
-            if (other.an_no != null)
-                return false;
-        } else if (!an_no.equals(other.an_no))
-            return false;
-        return true;
+    public int hashCode() {
+        return Objects.hash(jyu_ji_cd, an_no);
     }
-    
 }

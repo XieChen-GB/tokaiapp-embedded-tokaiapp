@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 
 import com.example.tokaiapp.entity.Tmk1tkui;
+import com.example.tokaiapp.entity.Tmk1tkuiId;
 import com.example.tokaiapp.repository.Tmk1tkuiRepository;
 
 @Service
@@ -21,8 +22,8 @@ public class Tmk1tkuiService {
         return tmk1tkuiRepository.findAll();
     }
 
-    public Optional<Tmk1tkui> findById(String tkCd) {
-        return tmk1tkuiRepository.findById(tkCd);
+    public Optional<Tmk1tkui> findById(Tmk1tkuiId id) {
+        return tmk1tkuiRepository.findById(id);
     }
 
     public Tmk1tkui save(Tmk1tkui tmk1tkui) {

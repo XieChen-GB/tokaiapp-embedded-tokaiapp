@@ -1,9 +1,10 @@
 package com.example.tokaiapp.entity;
 
+import com.fasterxml.jackson.annotation.JsonUnwrapped;
+
 import jakarta.persistence.Column;
+import jakarta.persistence.EmbeddedId;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.IdClass;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinColumns;
 import jakarta.persistence.ManyToOne;
@@ -11,20 +12,11 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tok1bukk")
-@IdClass(Tok1bukkId.class)
 public class Tok1bukk {
 
-    @Id
-    @Column(name = "jyu_ji_cd")
-    private String jyu_ji_cd;
-
-    @Id
-    @Column(name = "an_no")
-    private String an_no;
-
-    @Id
-    @Column(name = "bu_no")
-    private String bu_no;
+    @EmbeddedId
+    @JsonUnwrapped
+    private Tok1bukkId id;
 
     @Column(name = "bu_bun_rui")
     private String bu_bun_rui;
@@ -38,14 +30,8 @@ public class Tok1bukk {
 
     public Tok1bukk() {}
 
-    public String getJyu_ji_cd() { return jyu_ji_cd; }
-    public void setJyu_ji_cd(String jyu_ji_cd) { this.jyu_ji_cd = jyu_ji_cd; }
-
-    public String getAn_no() { return an_no; }
-    public void setAn_no(String an_no) { this.an_no = an_no; }
-
-    public String getBu_no() { return bu_no; }
-    public void setBu_no(String bu_no) { this.bu_no = bu_no; }
+    public Tok1bukkId getId() { return id; }
+    public void setId(Tok1bukkId id) { this.id = id; }
 
     public String getBu_bun_rui() { return bu_bun_rui; }
     public void setBu_bun_rui(String bu_bun_rui) { this.bu_bun_rui = bu_bun_rui; }

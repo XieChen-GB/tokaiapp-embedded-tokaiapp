@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.tokaiapp.entity.Tmk1tkui;
+import com.example.tokaiapp.entity.Tmk1tkuiId;
 import com.example.tokaiapp.service.Tmk1tkuiService;
 
 @RestController
@@ -28,9 +29,13 @@ public class Tmk1tkuiController {
         return tmk1tkuiService.findAll();
     }
 
-    @GetMapping("/{tkCd}")
-    public ResponseEntity<Tmk1tkui> findById(@PathVariable String tkCd) {
-        return tmk1tkuiService.findById(tkCd)
+    @GetMapping("/{jiCd}/{tokuCd}/{tkjiCd}")
+    public ResponseEntity<Tmk1tkui> findById(
+            @PathVariable String jiCd,
+            @PathVariable String tokuCd,
+            @PathVariable String tkjiCd) {
+        Tmk1tkuiId id = new Tmk1tkuiId(jiCd, tokuCd, tkjiCd);
+        return tmk1tkuiService.findById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }

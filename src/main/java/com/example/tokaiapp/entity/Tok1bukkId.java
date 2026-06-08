@@ -3,10 +3,19 @@ package com.example.tokaiapp.entity;
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+
+@Embeddable
 public class Tok1bukkId implements Serializable {
 
+    @Column(name = "jyu_ji_cd")
     private String jyu_ji_cd;
+
+    @Column(name = "an_no")
     private String an_no;
+
+    @Column(name = "bu_no")
     private String bu_no;
 
     public Tok1bukkId() {}
