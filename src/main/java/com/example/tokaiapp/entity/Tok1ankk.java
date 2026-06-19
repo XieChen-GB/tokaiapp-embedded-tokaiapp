@@ -16,97 +16,97 @@ public class Tok1ankk {
     private Tok1ankkId id;
 
     @Column(name = "ji_cd")
-    private String ji_cd;
+    private String jiCd;
 
     @Column(name = "toku_cd")
-    private String toku_cd;
+    private String tokuCd;
 
     @Column(name = "tkji_cd")
-    private String tkji_cd;
+    private String tkjiCd;
 
     @Column(name = "gen_nm")
-    private String gen_nm;
+    private String genNm;
 
     @Column(name = "jyu_ji_nm")
-    private String jyu_ji_nm;
+    private String jyuJiNm;
 
     @Column(name = "jyu_ji_rnm")
-    private String jyu_ji_rnm;
+    private String jyuJiRnm;
 
     @Column(name = "an_l_bai_kb")
-    private String an_l_bai_kb;
+    private String anLBaiKb;
 
     @Column(name = "min_kan_kb")
-    private String min_kan_kb;
+    private String minKanKb;
 
     @Column(name = "jyu_ka_cd")
-    private String jyu_ka_cd;
+    private String jyuKaCd;
 
     @Column(name = "an_dt")
-    private Integer an_dt;
+    private Integer anDt;
 
     @Column(name = "kj_nm")
-    private String kj_nm;
+    private String kjNm;
 
     @Column(name = "tato_no")
-    private String tato_no;
+    private String tatoNo;
 
     @Column(name = "tkbsy_nm")
-    private String tkbsy_nm;
+    private String tkbsyNm;
 
     @Column(name = "tdfk_nm")
-    private String tdfk_nm;
+    private String tdfkNm;
 
     @Column(name = "skscs_nm")
-    private String skscs_nm;
+    private String skscsNm;
 
     public Tok1ankk() {}
 
     public Tok1ankkId getId() { return id; }
     public void setId(Tok1ankkId id) { this.id = id; }
 
-    public String getJi_cd() { return ji_cd; }
-    public void setJi_cd(String ji_cd) { this.ji_cd = ji_cd; }
+    public String getJiCd() { return jiCd; }
+    public void setJiCd(String jiCd) { this.jiCd = jiCd; }
 
-    public String getToku_cd() { return toku_cd; }
-    public void setToku_cd(String toku_cd) { this.toku_cd = toku_cd; }
+    public String getTokuCd() { return tokuCd; }
+    public void setTokuCd(String tokuCd) { this.tokuCd = tokuCd; }
 
-    public String getTkji_cd() { return tkji_cd; }
-    public void setTkji_cd(String tkji_cd) { this.tkji_cd = tkji_cd; }
+    public String getTkjiCd() { return tkjiCd; }
+    public void setTkjiCd(String tkjiCd) { this.tkjiCd = tkjiCd; }
 
-    public String getGen_nm() { return gen_nm; }
-    public void setGen_nm(String gen_nm) { this.gen_nm = gen_nm; }
+    public String getGenNm() { return genNm; }
+    public void setGenNm(String genNm) { this.genNm = genNm; }
 
-    public String getJyu_ji_nm() { return jyu_ji_nm; }
-    public void setJyu_ji_nm(String jyu_ji_nm) { this.jyu_ji_nm = jyu_ji_nm; }
+    public String getJyuJiNm() { return jyuJiNm; }
+    public void setJyuJiNm(String jyuJiNm) { this.jyuJiNm = jyuJiNm; }
 
-    public String getJyu_ji_rnm() { return jyu_ji_rnm; }
-    public void setJyu_ji_rnm(String jyu_ji_rnm) { this.jyu_ji_rnm = jyu_ji_rnm; }
+    public String getJyuJiRnm() { return jyuJiRnm; }
+    public void setJyuJiRnm(String jyuJiRnm) { this.jyuJiRnm = jyuJiRnm; }
 
-    public String getAn_l_bai_kb() { return an_l_bai_kb; }
-    public void setAn_l_bai_kb(String an_l_bai_kb) { this.an_l_bai_kb = an_l_bai_kb; }
+    public String getAnLBaiKb() { return anLBaiKb; }
+    public void setAnLBaiKb(String anLBaiKb) { this.anLBaiKb = anLBaiKb; }
 
-    public String getMin_kan_kb() { return min_kan_kb; }
-    public void setMin_kan_kb(String min_kan_kb) { this.min_kan_kb = min_kan_kb; }
+    public String getMinKanKb() { return minKanKb; }
+    public void setMinKanKb(String minKanKb) { this.minKanKb = minKanKb; }
 
-    public String getJyu_ka_cd() { return jyu_ka_cd; }
-    public void setJyu_ka_cd(String jyu_ka_cd) { this.jyu_ka_cd = jyu_ka_cd; }
+    public String getJyuKaCd() { return jyuKaCd; }
+    public void setJyuKaCd(String jyuKaCd) { this.jyuKaCd = jyuKaCd; }
 
-    public Integer getAn_dt() { return an_dt; }
-    public void setAn_dt(Integer an_dt) { this.an_dt = an_dt; }
+    public Integer getAnDt() { return anDt; }
+    public void setAnDt(Integer anDt) { this.anDt = anDt; }
 
-    public String getKj_nm() { return kj_nm; }
-    public void setKj_nm(String kj_nm) { this.kj_nm = kj_nm; }
+    public String getKjNm() { return kjNm; }
+    public void setKjNm(String kjNm) { this.kjNm = kjNm; }
 
-    public String getTato_no() { return tato_no; }
-    public void setTato_no(String tato_no) { this.tato_no = tato_no; }
+    public String getTatoNo() { return tatoNo; }
+    public void setTatoNo(String tatoNo) { this.tatoNo = tatoNo; }
 
-    public String getTkbsy_nm() { return tkbsy_nm; }
-    public void setTkbsy_nm(String tkbsy_nm) { this.tkbsy_nm = tkbsy_nm; }
+    public String getTkbsyNm() { return tkbsyNm; }
+    public void setTkbsyNm(String tkbsyNm) { this.tkbsyNm = tkbsyNm; }
 
-    public String getTdfk_nm() { return tdfk_nm; }
-    public void setTdfk_nm(String tdfk_nm) { this.tdfk_nm = tdfk_nm; }
+    public String getTdfkNm() { return tdfkNm; }
+    public void setTdfkNm(String tdfkNm) { this.tdfkNm = tdfkNm; }
 
-    public String getSkscs_nm() { return skscs_nm; }
-    public void setSkscs_nm(String skscs_nm) { this.skscs_nm = skscs_nm; }
+    public String getSkscsNm() { return skscsNm; }
+    public void setSkscsNm(String skscsNm) { this.skscsNm = skscsNm; }
 }

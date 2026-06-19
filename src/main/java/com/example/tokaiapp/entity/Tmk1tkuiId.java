@@ -10,43 +10,43 @@ import jakarta.persistence.Embeddable;
 public class Tmk1tkuiId implements Serializable {
 
     @Column(name = "ji_cd")
-    private String ji_cd;
+    private String jiCd;
 
     @Column(name = "toku_cd")
-    private String toku_cd;
+    private String tokuCd;
 
     @Column(name = "tkji_cd")
-    private String tkji_cd;
+    private String tkjiCd;
 
     public Tmk1tkuiId() {}
 
-    public Tmk1tkuiId(String ji_cd, String toku_cd, String tkji_cd) {
-        this.ji_cd = ji_cd;
-        this.toku_cd = toku_cd;
-        this.tkji_cd = tkji_cd;
+    public Tmk1tkuiId(String jiCd, String tokuCd, String tkjiCd) {
+        this.jiCd = jiCd;
+        this.tokuCd = tokuCd;
+        this.tkjiCd = tkjiCd;
     }
 
-    public String getJi_cd() { return ji_cd; }
-    public void setJi_cd(String ji_cd) { this.ji_cd = ji_cd; }
+    public String getJiCd() { return jiCd; }
+    public void setJiCd(String jiCd) { this.jiCd = jiCd; }
 
-    public String getToku_cd() { return toku_cd; }
-    public void setToku_cd(String toku_cd) { this.toku_cd = toku_cd; }
+    public String getTokuCd() { return tokuCd; }
+    public void setTokuCd(String tokuCd) { this.tokuCd = tokuCd; }
 
-    public String getTkji_cd() { return tkji_cd; }
-    public void setTkji_cd(String tkji_cd) { this.tkji_cd = tkji_cd; }
+    public String getTkjiCd() { return tkjiCd; }
+    public void setTkjiCd(String tkjiCd) { this.tkjiCd = tkjiCd; }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Tmk1tkuiId that = (Tmk1tkuiId) o;
-        return Objects.equals(ji_cd, that.ji_cd)
-                && Objects.equals(toku_cd, that.toku_cd)
-                && Objects.equals(tkji_cd, that.tkji_cd);
+        return Objects.equals(jiCd, that.jiCd)
+                && Objects.equals(tokuCd, that.tokuCd)
+                && Objects.equals(tkjiCd, that.tkjiCd);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(ji_cd, toku_cd, tkji_cd);
+        return Objects.hash(jiCd, tokuCd, tkjiCd);
     }
 }

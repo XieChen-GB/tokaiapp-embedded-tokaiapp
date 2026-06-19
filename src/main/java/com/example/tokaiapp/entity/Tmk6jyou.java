@@ -11,16 +11,16 @@ public class Tmk6jyou {
 
     @Id
     @Column(name = "ji_cd")
-    private String ji_cd;
+    private String jiCd;
 
     @Column(name = "ji_name")
-    private String ji_name;
+    private String jiName;
 
     public Tmk6jyou() {}
 
-    public String getJi_cd() { return ji_cd; }
-    public void setJi_cd(String ji_cd) { this.ji_cd = ji_cd; }
+    public String getJiCd() { return jiCd; }
+    public void setJiCd(String jiCd) { this.jiCd = jiCd; }
 
-    public String getJi_name() { return ji_name; }
-    public void setJi_name(String ji_name) { this.ji_name = ji_name; }
+    public String getJiName() { return jiName; }
+    public void setJiName(String jiName) { this.jiName = jiName; }
 }
