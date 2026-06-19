@@ -16,19 +16,19 @@ public class Tmk1tkui {
     private Tmk1tkuiId id;
 
     @Column(name = "tk_nm")
-    private String tk_nm;
+    private String tkNm;
 
     @Column(name = "tkji_nm")
-    private String tkji_nm;
+    private String tkjiNm;
 
     @Column(name = "tk_nm_kn")
-    private String tk_nm_kn;
+    private String tkNmKn;
 
     @Column(name = "tkji_nm_kn")
-    private String tkji_nm_kn;
+    private String tkjiNmKn;
 
     @Column(name = "tkyb_no")
-    private String tkyb_no;
+    private String tkybNo;
 
     @Column(name = "tkjs1")
     private String tkjs1;
@@ -37,36 +37,36 @@ public class Tmk1tkui {
     private String tkjs2;
 
     @Column(name = "tk_tel")
-    private String tk_tel;
+    private String tkTel;
 
     @Column(name = "tk_fax")
-    private String tk_fax;
+    private String tkFax;
 
     @Column(name = "tk_kb")
-    private String tk_kb;
+    private String tkKb;
 
     @Column(name = "tk_tp")
-    private String tk_tp;
+    private String tkTp;
 
     public Tmk1tkui() {}
 
     public Tmk1tkuiId getId() { return id; }
     public void setId(Tmk1tkuiId id) { this.id = id; }
 
-    public String getTk_nm() { return tk_nm; }
-    public void setTk_nm(String tk_nm) { this.tk_nm = tk_nm; }
+    public String getTkNm() { return tkNm; }
+    public void setTkNm(String tkNm) { this.tkNm = tkNm; }
 
-    public String getTkji_nm() { return tkji_nm; }
-    public void setTkji_nm(String tkji_nm) { this.tkji_nm = tkji_nm; }
+    public String getTkjiNm() { return tkjiNm; }
+    public void setTkjiNm(String tkjiNm) { this.tkjiNm = tkjiNm; }
 
-    public String getTk_nm_kn() { return tk_nm_kn; }
-    public void setTk_nm_kn(String tk_nm_kn) { this.tk_nm_kn = tk_nm_kn; }
+    public String getTkNmKn() { return tkNmKn; }
+    public void setTkNmKn(String tkNmKn) { this.tkNmKn = tkNmKn; }
 
-    public String getTkji_nm_kn() { return tkji_nm_kn; }
-    public void setTkji_nm_kn(String tkji_nm_kn) { this.tkji_nm_kn = tkji_nm_kn; }
+    public String getTkjiNmKn() { return tkjiNmKn; }
+    public void setTkjiNmKn(String tkjiNmKn) { this.tkjiNmKn = tkjiNmKn; }
 
-    public String getTkyb_no() { return tkyb_no; }
-    public void setTkyb_no(String tkyb_no) { this.tkyb_no = tkyb_no; }
+    public String getTkybNo() { return tkybNo; }
+    public void setTkybNo(String tkybNo) { this.tkybNo = tkybNo; }
 
     public String getTkjs1() { return tkjs1; }
     public void setTkjs1(String tkjs1) { this.tkjs1 = tkjs1; }
@@ -74,15 +74,15 @@ public class Tmk1tkui {
     public String getTkjs2() { return tkjs2; }
     public void setTkjs2(String tkjs2) { this.tkjs2 = tkjs2; }
 
-    public String getTk_tel() { return tk_tel; }
-    public void setTk_tel(String tk_tel) { this.tk_tel = tk_tel; }
+    public String getTkTel() { return tkTel; }
+    public void setTkTel(String tkTel) { this.tkTel = tkTel; }
 
-    public String getTk_fax() { return tk_fax; }
-    public void setTk_fax(String tk_fax) { this.tk_fax = tk_fax; }
+    public String getTkFax() { return tkFax; }
+    public void setTkFax(String tkFax) { this.tkFax = tkFax; }
 
-    public String getTk_kb() { return tk_kb; }
-    public void setTk_kb(String tk_kb) { this.tk_kb = tk_kb; }
+    public String getTkKb() { return tkKb; }
+    public void setTkKb(String tkKb) { this.tkKb = tkKb; }
 
-    public String getTk_tp() { return tk_tp; }
-    public void setTk_tp(String tk_tp) { this.tk_tp = tk_tp; }
+    public String getTkTp() { return tkTp; }
+    public void setTkTp(String tkTp) { this.tkTp = tkTp; }
 }

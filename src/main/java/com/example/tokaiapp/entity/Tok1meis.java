@@ -16,88 +16,88 @@ public class Tok1meis {
     private Tok1meisId id;
 
     @Column(name = "bu_syu")
-    private String bu_syu;
+    private String buSyu;
 
     @Column(name = "kom_cd")
-    private String kom_cd;
+    private String komCd;
 
     @Column(name = "kom_nm")
-    private String kom_nm;
+    private String komNm;
 
     @Column(name = "tni_cd")
-    private String tni_cd;
+    private String tniCd;
 
     @Column(name = "koyo_f")
-    private String koyo_f;
+    private String koyoF;
 
     @Column(name = "mmorig_cd")
-    private String mmorig_cd;
+    private String mmorigCd;
 
     @Column(name = "mmorig_nm")
-    private String mmorig_nm;
+    private String mmorigNm;
 
     @Column(name = "ki_su")
-    private String ki_su;
+    private String kiSu;
 
     @Column(name = "bkase_f")
-    private String bkase_f;
+    private String bkaseF;
 
     @Column(name = "kazei_f")
-    private String kazei_f;
+    private String kazeiF;
 
     @Column(name = "uhkam_cd")
-    private String uhkam_cd;
+    private String uhkamCd;
 
     @Column(name = "kkanz_cd")
-    private String kkanz_cd;
+    private String kkanzCd;
 
     @Column(name = "ghkam_cd")
-    private String ghkam_cd;
+    private String ghkamCd;
 
     @Column(name = "thk_f")
-    private String thk_f;
+    private String thkF;
 
     @Column(name = "sesaur_f")
-    private String sesaur_f;
+    private String sesaurF;
 
     @Column(name = "ygenss_kb")
-    private String ygenss_kb;
+    private String ygenssKb;
 
     @Column(name = "gkand1_dt")
-    private Integer gkand1_dt;
+    private Integer gkand1Dt;
 
     @Column(name = "gkend1_dt")
-    private Integer gkend1_dt;
+    private Integer gkend1Dt;
 
     @Column(name = "gnou_no_1")
-    private String gnou_no_1;
+    private String gnouNo1;
 
     @Column(name = "gkand2_dt")
-    private Integer gkand2_dt;
+    private Integer gkand2Dt;
 
     @Column(name = "gkend2_dt")
-    private Integer gkend2_dt;
+    private Integer gkend2Dt;
 
     @Column(name = "gnou_no_2")
-    private String gnou_no_2;
+    private String gnouNo2;
 
     @Column(name = "gkand3_dt")
-    private Integer gkand3_dt;
+    private Integer gkand3Dt;
 
     @Column(name = "gkend3_dt")
-    private Integer gkend3_dt;
+    private Integer gkend3Dt;
 
     @Column(name = "gnou_no_3")
-    private String gnou_no_3;
+    private String gnouNo3;
 
     @Column(name = "genur_no")
-    private String genur_no;
+    private String genurNo;
 
     @Column(name = "genkom_no")
-    private String genkom_no;
+    private String genkomNo;
 
     @Column(name = "su4v2_kt")
-    private Double su4v2_kt;
+    private Double su4v2Kt;
 
     @Column(name = "tan")
     private Long tan;
@@ -106,7 +106,7 @@ public class Tok1meis {
     private Long kitss;
 
     @Column(name = "nose_f")
-    private String nose_f;
+    private String noseF;
 
     @Column(name = "nose")
     private Long nose;
@@ -117,217 +117,220 @@ public class Tok1meis {
     @Column(name = "mmori")
     private Long mmori;
 
+    @Column(name = "mmori_gg")
+    private Long mmoriGg;
+
     @Column(name = "saisya")
     private Double saisya;
 
     @Column(name = "yg_tat")
-    private Long yg_tat;
+    private Long ygTat;
 
     @Column(name = "ygr_tat")
-    private Double ygr_tat;
+    private Double ygrTat;
 
     @Column(name = "yg_tatz")
-    private Long yg_tatz;
+    private Long ygTatz;
 
     @Column(name = "yg_tatzr")
-    private Double yg_tatzr;
+    private Double ygTatzr;
 
     @Column(name = "yg_kai")
-    private Long yg_kai;
+    private Long ygKai;
 
     @Column(name = "ygr_kai")
-    private Double ygr_kai;
+    private Double ygrKai;
 
     @Column(name = "yg_kaic")
-    private Long yg_kaic;
+    private Long ygKaic;
 
     @Column(name = "yg_kaicr")
-    private Double yg_kaicr;
+    private Double ygKaicr;
 
     @Column(name = "lki_ktni")
-    private String lki_ktni;
+    private String lkiKtni;
 
     @Column(name = "khlkik")
     private Integer khlkik;
 
     @Column(name = "gte_haisu")
-    private Integer gte_haisu;
+    private Integer gteHaisu;
 
     @Column(name = "gngime_st")
-    private String gngime_st;
+    private String gngimeSt;
 
     @Column(name = "haj_cd1")
-    private String haj_cd1;
+    private String hajCd1;
 
     @Column(name = "gyo_cd1")
-    private String gyo_cd1;
+    private String gyoCd1;
 
     @Column(name = "gken_cd1")
-    private String gken_cd1;
+    private String gkenCd1;
 
     @Column(name = "gchyot_dt1")
-    private Integer gchyot_dt1;
+    private Integer gchyotDt1;
 
     @Column(name = "gngime_f1")
-    private String gngime_f1;
+    private String gngimeF1;
 
     @Column(name = "gkenh_cd1")
-    private String gkenh_cd1;
+    private String gkenhCd1;
 
     @Column(name = "betk_cd1")
-    private String betk_cd1;
+    private String betkCd1;
 
     @Column(name = "tatyot_g1")
-    private Long tatyot_g1;
+    private Long tatyotG1;
 
     @Column(name = "kaiyot_g1")
-    private Long kaiyot_g1;
+    private Long kaiyotG1;
 
     @Column(name = "haj_cd2")
-    private String haj_cd2;
+    private String hajCd2;
 
     @Column(name = "gyo_cd2")
-    private String gyo_cd2;
+    private String gyoCd2;
 
     @Column(name = "gken_cd2")
-    private String gken_cd2;
+    private String gkenCd2;
 
     @Column(name = "gchyot_dt2")
-    private Integer gchyot_dt2;
+    private Integer gchyotDt2;
 
     @Column(name = "gngime_f2")
-    private String gngime_f2;
+    private String gngimeF2;
 
     @Column(name = "gkenh_cd2")
-    private String gkenh_cd2;
+    private String gkenhCd2;
 
     @Column(name = "betk_cd2")
-    private String betk_cd2;
+    private String betkCd2;
 
     @Column(name = "tatyot_g2")
-    private Long tatyot_g2;
+    private Long tatyotG2;
 
     @Column(name = "kaiyot_g2")
-    private Long kaiyot_g2;
+    private Long kaiyotG2;
 
     @Column(name = "haj_cd3")
-    private String haj_cd3;
+    private String hajCd3;
 
     @Column(name = "gyo_cd3")
-    private String gyo_cd3;
+    private String gyoCd3;
 
     @Column(name = "gken_cd3")
-    private String gken_cd3;
+    private String gkenCd3;
 
     @Column(name = "gchyot_dt3")
-    private Integer gchyot_dt3;
+    private Integer gchyotDt3;
 
     @Column(name = "gngime_f3")
-    private String gngime_f3;
+    private String gngimeF3;
 
     @Column(name = "gkenh_cd3")
-    private String gkenh_cd3;
+    private String gkenhCd3;
 
     @Column(name = "betk_cd3")
-    private String betk_cd3;
+    private String betkCd3;
 
     @Column(name = "tatyot_g3")
-    private Long tatyot_g3;
+    private Long tatyotG3;
 
     @Column(name = "kaiyot_g3")
-    private Long kaiyot_g3;
+    private Long kaiyotG3;
 
     @Column(name = "sekizai_f")
-    private String sekizai_f;
+    private String sekizaiF;
 
     public Tok1meis() {}
 
     public Tok1meisId getId() { return id; }
     public void setId(Tok1meisId id) { this.id = id; }
 
-    public String getBu_syu() { return bu_syu; }
-    public void setBu_syu(String bu_syu) { this.bu_syu = bu_syu; }
+    public String getBuSyu() { return buSyu; }
+    public void setBuSyu(String buSyu) { this.buSyu = buSyu; }
 
-    public String getKom_cd() { return kom_cd; }
-    public void setKom_cd(String kom_cd) { this.kom_cd = kom_cd; }
+    public String getKomCd() { return komCd; }
+    public void setKomCd(String komCd) { this.komCd = komCd; }
 
-    public String getKom_nm() { return kom_nm; }
-    public void setKom_nm(String kom_nm) { this.kom_nm = kom_nm; }
+    public String getKomNm() { return komNm; }
+    public void setKomNm(String komNm) { this.komNm = komNm; }
 
-    public String getTni_cd() { return tni_cd; }
-    public void setTni_cd(String tni_cd) { this.tni_cd = tni_cd; }
+    public String getTniCd() { return tniCd; }
+    public void setTniCd(String tniCd) { this.tniCd = tniCd; }
 
-    public String getKoyo_f() { return koyo_f; }
-    public void setKoyo_f(String koyo_f) { this.koyo_f = koyo_f; }
+    public String getKoyoF() { return koyoF; }
+    public void setKoyoF(String koyoF) { this.koyoF = koyoF; }
 
-    public String getMmorig_cd() { return mmorig_cd; }
-    public void setMmorig_cd(String mmorig_cd) { this.mmorig_cd = mmorig_cd; }
+    public String getMmorigCd() { return mmorigCd; }
+    public void setMmorigCd(String mmorigCd) { this.mmorigCd = mmorigCd; }
 
-    public String getMmorig_nm() { return mmorig_nm; }
-    public void setMmorig_nm(String mmorig_nm) { this.mmorig_nm = mmorig_nm; }
+    public String getMmorigNm() { return mmorigNm; }
+    public void setMmorigNm(String mmorigNm) { this.mmorigNm = mmorigNm; }
 
-    public String getKi_su() { return ki_su; }
-    public void setKi_su(String ki_su) { this.ki_su = ki_su; }
+    public String getKiSu() { return kiSu; }
+    public void setKiSu(String kiSu) { this.kiSu = kiSu; }
 
-    public String getBkase_f() { return bkase_f; }
-    public void setBkase_f(String bkase_f) { this.bkase_f = bkase_f; }
+    public String getBkaseF() { return bkaseF; }
+    public void setBkaseF(String bkaseF) { this.bkaseF = bkaseF; }
 
-    public String getKazei_f() { return kazei_f; }
-    public void setKazei_f(String kazei_f) { this.kazei_f = kazei_f; }
+    public String getKazeiF() { return kazeiF; }
+    public void setKazeiF(String kazeiF) { this.kazeiF = kazeiF; }
 
-    public String getUhkam_cd() { return uhkam_cd; }
-    public void setUhkam_cd(String uhkam_cd) { this.uhkam_cd = uhkam_cd; }
+    public String getUhkamCd() { return uhkamCd; }
+    public void setUhkamCd(String uhkamCd) { this.uhkamCd = uhkamCd; }
 
-    public String getKkanz_cd() { return kkanz_cd; }
-    public void setKkanz_cd(String kkanz_cd) { this.kkanz_cd = kkanz_cd; }
+    public String getKkanzCd() { return kkanzCd; }
+    public void setKkanzCd(String kkanzCd) { this.kkanzCd = kkanzCd; }
 
-    public String getGhkam_cd() { return ghkam_cd; }
-    public void setGhkam_cd(String ghkam_cd) { this.ghkam_cd = ghkam_cd; }
+    public String getGhkamCd() { return ghkamCd; }
+    public void setGhkamCd(String ghkamCd) { this.ghkamCd = ghkamCd; }
 
-    public String getThk_f() { return thk_f; }
-    public void setThk_f(String thk_f) { this.thk_f = thk_f; }
+    public String getThkF() { return thkF; }
+    public void setThkF(String thkF) { this.thkF = thkF; }
 
-    public String getSesaur_f() { return sesaur_f; }
-    public void setSesaur_f(String sesaur_f) { this.sesaur_f = sesaur_f; }
+    public String getSesaurF() { return sesaurF; }
+    public void setSesaurF(String sesaurF) { this.sesaurF = sesaurF; }
 
-    public String getYgenss_kb() { return ygenss_kb; }
-    public void setYgenss_kb(String ygenss_kb) { this.ygenss_kb = ygenss_kb; }
+    public String getYgenssKb() { return ygenssKb; }
+    public void setYgenssKb(String ygenssKb) { this.ygenssKb = ygenssKb; }
 
-    public Integer getGkand1_dt() { return gkand1_dt; }
-    public void setGkand1_dt(Integer gkand1_dt) { this.gkand1_dt = gkand1_dt; }
+    public Integer getGkand1Dt() { return gkand1Dt; }
+    public void setGkand1Dt(Integer gkand1Dt) { this.gkand1Dt = gkand1Dt; }
 
-    public Integer getGkend1_dt() { return gkend1_dt; }
-    public void setGkend1_dt(Integer gkend1_dt) { this.gkend1_dt = gkend1_dt; }
+    public Integer getGkend1Dt() { return gkend1Dt; }
+    public void setGkend1Dt(Integer gkend1Dt) { this.gkend1Dt = gkend1Dt; }
 
-    public String getGnou_no_1() { return gnou_no_1; }
-    public void setGnou_no_1(String gnou_no_1) { this.gnou_no_1 = gnou_no_1; }
+    public String getGnouNo1() { return gnouNo1; }
+    public void setGnouNo1(String gnouNo1) { this.gnouNo1 = gnouNo1; }
 
-    public Integer getGkand2_dt() { return gkand2_dt; }
-    public void setGkand2_dt(Integer gkand2_dt) { this.gkand2_dt = gkand2_dt; }
+    public Integer getGkand2Dt() { return gkand2Dt; }
+    public void setGkand2Dt(Integer gkand2Dt) { this.gkand2Dt = gkand2Dt; }
 
-    public Integer getGkend2_dt() { return gkend2_dt; }
-    public void setGkend2_dt(Integer gkend2_dt) { this.gkend2_dt = gkend2_dt; }
+    public Integer getGkend2Dt() { return gkend2Dt; }
+    public void setGkend2Dt(Integer gkend2Dt) { this.gkend2Dt = gkend2Dt; }
 
-    public String getGnou_no_2() { return gnou_no_2; }
-    public void setGnou_no_2(String gnou_no_2) { this.gnou_no_2 = gnou_no_2; }
+    public String getGnouNo2() { return gnouNo2; }
+    public void setGnouNo2(String gnouNo2) { this.gnouNo2 = gnouNo2; }
 
-    public Integer getGkand3_dt() { return gkand3_dt; }
-    public void setGkand3_dt(Integer gkand3_dt) { this.gkand3_dt = gkand3_dt; }
+    public Integer getGkand3Dt() { return gkand3Dt; }
+    public void setGkand3Dt(Integer gkand3Dt) { this.gkand3Dt = gkand3Dt; }
 
-    public Integer getGkend3_dt() { return gkend3_dt; }
-    public void setGkend3_dt(Integer gkend3_dt) { this.gkend3_dt = gkend3_dt; }
+    public Integer getGkend3Dt() { return gkend3Dt; }
+    public void setGkend3Dt(Integer gkend3Dt) { this.gkend3Dt = gkend3Dt; }
 
-    public String getGnou_no_3() { return gnou_no_3; }
-    public void setGnou_no_3(String gnou_no_3) { this.gnou_no_3 = gnou_no_3; }
+    public String getGnouNo3() { return gnouNo3; }
+    public void setGnouNo3(String gnouNo3) { this.gnouNo3 = gnouNo3; }
 
-    public String getGenur_no() { return genur_no; }
-    public void setGenur_no(String genur_no) { this.genur_no = genur_no; }
+    public String getGenurNo() { return genurNo; }
+    public void setGenurNo(String genurNo) { this.genurNo = genurNo; }
 
-    public String getGenkom_no() { return genkom_no; }
-    public void setGenkom_no(String genkom_no) { this.genkom_no = genkom_no; }
+    public String getGenkomNo() { return genkomNo; }
+    public void setGenkomNo(String genkomNo) { this.genkomNo = genkomNo; }
 
-    public Double getSu4v2_kt() { return su4v2_kt; }
-    public void setSu4v2_kt(Double su4v2_kt) { this.su4v2_kt = su4v2_kt; }
+    public Double getSu4v2Kt() { return su4v2Kt; }
+    public void setSu4v2Kt(Double su4v2Kt) { this.su4v2Kt = su4v2Kt; }
 
     public Long getTan() { return tan; }
     public void setTan(Long tan) { this.tan = tan; }
@@ -335,8 +338,8 @@ public class Tok1meis {
     public Long getKitss() { return kitss; }
     public void setKitss(Long kitss) { this.kitss = kitss; }
 
-    public String getNose_f() { return nose_f; }
-    public void setNose_f(String nose_f) { this.nose_f = nose_f; }
+    public String getNoseF() { return noseF; }
+    public void setNoseF(String noseF) { this.noseF = noseF; }
 
     public Long getNose() { return nose; }
     public void setNose(Long nose) { this.nose = nose; }
@@ -347,126 +350,129 @@ public class Tok1meis {
     public Long getMmori() { return mmori; }
     public void setMmori(Long mmori) { this.mmori = mmori; }
 
+    public Long getMmoriGg() { return mmoriGg; }
+    public void setMmoriGg(Long mmoriGg) { this.mmoriGg = mmoriGg; }
+
     public Double getSaisya() { return saisya; }
     public void setSaisya(Double saisya) { this.saisya = saisya; }
 
-    public Long getYg_tat() { return yg_tat; }
-    public void setYg_tat(Long yg_tat) { this.yg_tat = yg_tat; }
+    public Long getYgTat() { return ygTat; }
+    public void setYgTat(Long ygTat) { this.ygTat = ygTat; }
 
-    public Double getYgr_tat() { return ygr_tat; }
-    public void setYgr_tat(Double ygr_tat) { this.ygr_tat = ygr_tat; }
+    public Double getYgrTat() { return ygrTat; }
+    public void setYgrTat(Double ygrTat) { this.ygrTat = ygrTat; }
 
-    public Long getYg_tatz() { return yg_tatz; }
-    public void setYg_tatz(Long yg_tatz) { this.yg_tatz = yg_tatz; }
+    public Long getYgTatz() { return ygTatz; }
+    public void setYgTatz(Long ygTatz) { this.ygTatz = ygTatz; }
 
-    public Double getYg_tatzr() { return yg_tatzr; }
-    public void setYg_tatzr(Double yg_tatzr) { this.yg_tatzr = yg_tatzr; }
+    public Double getYgTatzr() { return ygTatzr; }
+    public void setYgTatzr(Double ygTatzr) { this.ygTatzr = ygTatzr; }
 
-    public Long getYg_kai() { return yg_kai; }
-    public void setYg_kai(Long yg_kai) { this.yg_kai = yg_kai; }
+    public Long getYgKai() { return ygKai; }
+    public void setYgKai(Long ygKai) { this.ygKai = ygKai; }
 
-    public Double getYgr_kai() { return ygr_kai; }
-    public void setYgr_kai(Double ygr_kai) { this.ygr_kai = ygr_kai; }
+    public Double getYgrKai() { return ygrKai; }
+    public void setYgrKai(Double ygrKai) { this.ygrKai = ygrKai; }
 
-    public Long getYg_kaic() { return yg_kaic; }
-    public void setYg_kaic(Long yg_kaic) { this.yg_kaic = yg_kaic; }
+    public Long getYgKaic() { return ygKaic; }
+    public void setYgKaic(Long ygKaic) { this.ygKaic = ygKaic; }
 
-    public Double getYg_kaicr() { return yg_kaicr; }
-    public void setYg_kaicr(Double yg_kaicr) { this.yg_kaicr = yg_kaicr; }
+    public Double getYgKaicr() { return ygKaicr; }
+    public void setYgKaicr(Double ygKaicr) { this.ygKaicr = ygKaicr; }
 
-    public String getLki_ktni() { return lki_ktni; }
-    public void setLki_ktni(String lki_ktni) { this.lki_ktni = lki_ktni; }
+    public String getLkiKtni() { return lkiKtni; }
+    public void setLkiKtni(String lkiKtni) { this.lkiKtni = lkiKtni; }
 
     public Integer getKhlkik() { return khlkik; }
     public void setKhlkik(Integer khlkik) { this.khlkik = khlkik; }
 
-    public Integer getGte_haisu() { return gte_haisu; }
-    public void setGte_haisu(Integer gte_haisu) { this.gte_haisu = gte_haisu; }
+    public Integer getGteHaisu() { return gteHaisu; }
+    public void setGteHaisu(Integer gteHaisu) { this.gteHaisu = gteHaisu; }
 
-    public String getGngime_st() { return gngime_st; }
-    public void setGngime_st(String gngime_st) { this.gngime_st = gngime_st; }
+    public String getGngimeSt() { return gngimeSt; }
+    public void setGngimeSt(String gngimeSt) { this.gngimeSt = gngimeSt; }
 
-    public String getHaj_cd1() { return haj_cd1; }
-    public void setHaj_cd1(String haj_cd1) { this.haj_cd1 = haj_cd1; }
+    public String getHajCd1() { return hajCd1; }
+    public void setHajCd1(String hajCd1) { this.hajCd1 = hajCd1; }
 
-    public String getGyo_cd1() { return gyo_cd1; }
-    public void setGyo_cd1(String gyo_cd1) { this.gyo_cd1 = gyo_cd1; }
+    public String getGyoCd1() { return gyoCd1; }
+    public void setGyoCd1(String gyoCd1) { this.gyoCd1 = gyoCd1; }
 
-    public String getGken_cd1() { return gken_cd1; }
-    public void setGken_cd1(String gken_cd1) { this.gken_cd1 = gken_cd1; }
+    public String getGkenCd1() { return gkenCd1; }
+    public void setGkenCd1(String gkenCd1) { this.gkenCd1 = gkenCd1; }
 
-    public Integer getGchyot_dt1() { return gchyot_dt1; }
-    public void setGchyot_dt1(Integer gchyot_dt1) { this.gchyot_dt1 = gchyot_dt1; }
+    public Integer getGchyotDt1() { return gchyotDt1; }
+    public void setGchyotDt1(Integer gchyotDt1) { this.gchyotDt1 = gchyotDt1; }
 
-    public String getGngime_f1() { return gngime_f1; }
-    public void setGngime_f1(String gngime_f1) { this.gngime_f1 = gngime_f1; }
+    public String getGngimeF1() { return gngimeF1; }
+    public void setGngimeF1(String gngimeF1) { this.gngimeF1 = gngimeF1; }
 
-    public String getGkenh_cd1() { return gkenh_cd1; }
-    public void setGkenh_cd1(String gkenh_cd1) { this.gkenh_cd1 = gkenh_cd1; }
+    public String getGkenhCd1() { return gkenhCd1; }
+    public void setGkenhCd1(String gkenhCd1) { this.gkenhCd1 = gkenhCd1; }
 
-    public String getBetk_cd1() { return betk_cd1; }
-    public void setBetk_cd1(String betk_cd1) { this.betk_cd1 = betk_cd1; }
+    public String getBetkCd1() { return betkCd1; }
+    public void setBetkCd1(String betkCd1) { this.betkCd1 = betkCd1; }
 
-    public Long getTatyot_g1() { return tatyot_g1; }
-    public void setTatyot_g1(Long tatyot_g1) { this.tatyot_g1 = tatyot_g1; }
+    public Long getTatyotG1() { return tatyotG1; }
+    public void setTatyotG1(Long tatyotG1) { this.tatyotG1 = tatyotG1; }
 
-    public Long getKaiyot_g1() { return kaiyot_g1; }
-    public void setKaiyot_g1(Long kaiyot_g1) { this.kaiyot_g1 = kaiyot_g1; }
+    public Long getKaiyotG1() { return kaiyotG1; }
+    public void setKaiyotG1(Long kaiyotG1) { this.kaiyotG1 = kaiyotG1; }
 
-    public String getHaj_cd2() { return haj_cd2; }
-    public void setHaj_cd2(String haj_cd2) { this.haj_cd2 = haj_cd2; }
+    public String getHajCd2() { return hajCd2; }
+    public void setHajCd2(String hajCd2) { this.hajCd2 = hajCd2; }
 
-    public String getGyo_cd2() { return gyo_cd2; }
-    public void setGyo_cd2(String gyo_cd2) { this.gyo_cd2 = gyo_cd2; }
+    public String getGyoCd2() { return gyoCd2; }
+    public void setGyoCd2(String gyoCd2) { this.gyoCd2 = gyoCd2; }
 
-    public String getGken_cd2() { return gken_cd2; }
-    public void setGken_cd2(String gken_cd2) { this.gken_cd2 = gken_cd2; }
+    public String getGkenCd2() { return gkenCd2; }
+    public void setGkenCd2(String gkenCd2) { this.gkenCd2 = gkenCd2; }
 
-    public Integer getGchyot_dt2() { return gchyot_dt2; }
-    public void setGchyot_dt2(Integer gchyot_dt2) { this.gchyot_dt2 = gchyot_dt2; }
+    public Integer getGchyotDt2() { return gchyotDt2; }
+    public void setGchyotDt2(Integer gchyotDt2) { this.gchyotDt2 = gchyotDt2; }
 
-    public String getGngime_f2() { return gngime_f2; }
-    public void setGngime_f2(String gngime_f2) { this.gngime_f2 = gngime_f2; }
+    public String getGngimeF2() { return gngimeF2; }
+    public void setGngimeF2(String gngimeF2) { this.gngimeF2 = gngimeF2; }
 
-    public String getGkenh_cd2() { return gkenh_cd2; }
-    public void setGkenh_cd2(String gkenh_cd2) { this.gkenh_cd2 = gkenh_cd2; }
+    public String getGkenhCd2() { return gkenhCd2; }
+    public void setGkenhCd2(String gkenhCd2) { this.gkenhCd2 = gkenhCd2; }
 
-    public String getBetk_cd2() { return betk_cd2; }
-    public void setBetk_cd2(String betk_cd2) { this.betk_cd2 = betk_cd2; }
+    public String getBetkCd2() { return betkCd2; }
+    public void setBetkCd2(String betkCd2) { this.betkCd2 = betkCd2; }
 
-    public Long getTatyot_g2() { return tatyot_g2; }
-    public void setTatyot_g2(Long tatyot_g2) { this.tatyot_g2 = tatyot_g2; }
+    public Long getTatyotG2() { return tatyotG2; }
+    public void setTatyotG2(Long tatyotG2) { this.tatyotG2 = tatyotG2; }
 
-    public Long getKaiyot_g2() { return kaiyot_g2; }
-    public void setKaiyot_g2(Long kaiyot_g2) { this.kaiyot_g2 = kaiyot_g2; }
+    public Long getKaiyotG2() { return kaiyotG2; }
+    public void setKaiyotG2(Long kaiyotG2) { this.kaiyotG2 = kaiyotG2; }
 
-    public String getHaj_cd3() { return haj_cd3; }
-    public void setHaj_cd3(String haj_cd3) { this.haj_cd3 = haj_cd3; }
+    public String getHajCd3() { return hajCd3; }
+    public void setHajCd3(String hajCd3) { this.hajCd3 = hajCd3; }
 
-    public String getGyo_cd3() { return gyo_cd3; }
-    public void setGyo_cd3(String gyo_cd3) { this.gyo_cd3 = gyo_cd3; }
+    public String getGyoCd3() { return gyoCd3; }
+    public void setGyoCd3(String gyoCd3) { this.gyoCd3 = gyoCd3; }
 
-    public String getGken_cd3() { return gken_cd3; }
-    public void setGken_cd3(String gken_cd3) { this.gken_cd3 = gken_cd3; }
+    public String getGkenCd3() { return gkenCd3; }
+    public void setGkenCd3(String gkenCd3) { this.gkenCd3 = gkenCd3; }
 
-    public Integer getGchyot_dt3() { return gchyot_dt3; }
-    public void setGchyot_dt3(Integer gchyot_dt3) { this.gchyot_dt3 = gchyot_dt3; }
+    public Integer getGchyotDt3() { return gchyotDt3; }
+    public void setGchyotDt3(Integer gchyotDt3) { this.gchyotDt3 = gchyotDt3; }
 
-    public String getGngime_f3() { return gngime_f3; }
-    public void setGngime_f3(String gngime_f3) { this.gngime_f3 = gngime_f3; }
+    public String getGngimeF3() { return gngimeF3; }
+    public void setGngimeF3(String gngimeF3) { this.gngimeF3 = gngimeF3; }
 
-    public String getGkenh_cd3() { return gkenh_cd3; }
-    public void setGkenh_cd3(String gkenh_cd3) { this.gkenh_cd3 = gkenh_cd3; }
+    public String getGkenhCd3() { return gkenhCd3; }
+    public void setGkenhCd3(String gkenhCd3) { this.gkenhCd3 = gkenhCd3; }
 
-    public String getBetk_cd3() { return betk_cd3; }
-    public void setBetk_cd3(String betk_cd3) { this.betk_cd3 = betk_cd3; }
+    public String getBetkCd3() { return betkCd3; }
+    public void setBetkCd3(String betkCd3) { this.betkCd3 = betkCd3; }
 
-    public Long getTatyot_g3() { return tatyot_g3; }
-    public void setTatyot_g3(Long tatyot_g3) { this.tatyot_g3 = tatyot_g3; }
+    public Long getTatyotG3() { return tatyotG3; }
+    public void setTatyotG3(Long tatyotG3) { this.tatyotG3 = tatyotG3; }
 
-    public Long getKaiyot_g3() { return kaiyot_g3; }
-    public void setKaiyot_g3(Long kaiyot_g3) { this.kaiyot_g3 = kaiyot_g3; }
+    public Long getKaiyotG3() { return kaiyotG3; }
+    public void setKaiyotG3(Long kaiyotG3) { this.kaiyotG3 = kaiyotG3; }
 
-    public String getSekizai_f() { return sekizai_f; }
-    public void setSekizai_f(String sekizai_f) { this.sekizai_f = sekizai_f; }
+    public String getSekizaiF() { return sekizaiF; }
+    public void setSekizaiF(String sekizaiF) { this.sekizaiF = sekizaiF; }
 }

@@ -16,145 +16,145 @@ public class Tok1bukk {
     private Tok1bukkId id;
 
     @Column(name = "bu_bun_rui")
-    private String bu_bun_rui;
+    private String buBunRui;
 
     @Column(name = "bu_syu")
-    private String bu_syu;
+    private String buSyu;
 
     @Column(name = "bu_kb")
-    private String bu_kb;
+    private String buKb;
 
     @Column(name = "jt_kb")
-    private String jt_kb;
+    private String jtKb;
 
     @Column(name = "bu_dt")
-    private Integer bu_dt;
+    private Integer buDt;
 
     @Column(name = "bu_skkn_dt")
-    private Integer bu_skkn_dt;
+    private Integer buSkknDt;
 
     @Column(name = "bu_kikn_dt")
-    private Integer bu_kikn_dt;
+    private Integer buKiknDt;
 
     @Column(name = "tlg_cd")
-    private String tlg_cd;
+    private String tlgCd;
 
     @Column(name = "bu_hs_kb")
-    private String bu_hs_kb;
+    private String buHsKb;
 
     @Column(name = "kj_sk_jcd")
-    private String kj_sk_jcd;
+    private String kjSkJcd;
 
     @Column(name = "kj_skj_rnm")
-    private String kj_skj_rnm;
+    private String kjSkjRnm;
 
     @Column(name = "bu_ldy")
-    private Integer bu_ldy;
+    private Integer buLdy;
 
     @Column(name = "bu_lki_dt")
-    private Integer bu_lki_dt;
+    private Integer buLkiDt;
 
     @Column(name = "bu_lmn_dt")
-    private Integer bu_lmn_dt;
+    private Integer buLmnDt;
 
     @Column(name = "bu_lst")
-    private String bu_lst;
+    private String buLst;
 
     @Column(name = "hs_cd")
-    private String hs_cd;
+    private String hsCd;
 
     @Column(name = "hs_km_rn")
-    private String hs_km_rn;
+    private String hsKmRn;
 
     @Column(name = "hs_ki")
-    private String hs_ki;
+    private String hsKi;
 
     @Column(name = "hs_no_ki")
-    private Double hs_no_ki;
+    private Double hsNoKi;
 
     @Column(name = "hs_tuma")
-    private Double hs_tuma;
+    private Double hsTuma;
 
     @Column(name = "hs_keta")
-    private Double hs_keta;
+    private Double hsKeta;
 
     @Column(name = "hus_g_set")
-    private String hus_g_set;
+    private String husGSet;
 
     @Column(name = "bu_nkatu")
-    private String bu_nkatu;
+    private String buNkatu;
 
     public Tok1bukk() {}
 
     public Tok1bukkId getId() { return id; }
     public void setId(Tok1bukkId id) { this.id = id; }
 
-    public String getBu_bun_rui() { return bu_bun_rui; }
-    public void setBu_bun_rui(String bu_bun_rui) { this.bu_bun_rui = bu_bun_rui; }
+    public String getBuBunRui() { return buBunRui; }
+    public void setBuBunRui(String buBunRui) { this.buBunRui = buBunRui; }
 
-    public String getBu_syu() { return bu_syu; }
-    public void setBu_syu(String bu_syu) { this.bu_syu = bu_syu; }
+    public String getBuSyu() { return buSyu; }
+    public void setBuSyu(String buSyu) { this.buSyu = buSyu; }
 
-    public String getBu_kb() { return bu_kb; }
-    public void setBu_kb(String bu_kb) { this.bu_kb = bu_kb; }
+    public String getBuKb() { return buKb; }
+    public void setBuKb(String buKb) { this.buKb = buKb; }
 
-    public String getJt_kb() { return jt_kb; }
-    public void setJt_kb(String jt_kb) { this.jt_kb = jt_kb; }
+    public String getJtKb() { return jtKb; }
+    public void setJtKb(String jtKb) { this.jtKb = jtKb; }
 
-    public Integer getBu_dt() { return bu_dt; }
-    public void setBu_dt(Integer bu_dt) { this.bu_dt = bu_dt; }
+    public Integer getBuDt() { return buDt; }
+    public void setBuDt(Integer buDt) { this.buDt = buDt; }
 
-    public Integer getBu_skkn_dt() { return bu_skkn_dt; }
-    public void setBu_skkn_dt(Integer bu_skkn_dt) { this.bu_skkn_dt = bu_skkn_dt; }
+    public Integer getBuSkknDt() { return buSkknDt; }
+    public void setBuSkknDt(Integer buSkknDt) { this.buSkknDt = buSkknDt; }
 
-    public Integer getBu_kikn_dt() { return bu_kikn_dt; }
-    public void setBu_kikn_dt(Integer bu_kikn_dt) { this.bu_kikn_dt = bu_kikn_dt; }
+    public Integer getBuKiknDt() { return buKiknDt; }
+    public void setBuKiknDt(Integer buKiknDt) { this.buKiknDt = buKiknDt; }
 
-    public String getTlg_cd() { return tlg_cd; }
-    public void setTlg_cd(String tlg_cd) { this.tlg_cd = tlg_cd; }
+    public String getTlgCd() { return tlgCd; }
+    public void setTlgCd(String tlgCd) { this.tlgCd = tlgCd; }
 
-    public String getBu_hs_kb() { return bu_hs_kb; }
-    public void setBu_hs_kb(String bu_hs_kb) { this.bu_hs_kb = bu_hs_kb; }
+    public String getBuHsKb() { return buHsKb; }
+    public void setBuHsKb(String buHsKb) { this.buHsKb = buHsKb; }
 
-    public String getKj_sk_jcd() { return kj_sk_jcd; }
-    public void setKj_sk_jcd(String kj_sk_jcd) { this.kj_sk_jcd = kj_sk_jcd; }
+    public String getKjSkJcd() { return kjSkJcd; }
+    public void setKjSkJcd(String kjSkJcd) { this.kjSkJcd = kjSkJcd; }
 
-    public String getKj_skj_rnm() { return kj_skj_rnm; }
-    public void setKj_skj_rnm(String kj_skj_rnm) { this.kj_skj_rnm = kj_skj_rnm; }
+    public String getKjSkjRnm() { return kjSkjRnm; }
+    public void setKjSkjRnm(String kjSkjRnm) { this.kjSkjRnm = kjSkjRnm; }
 
-    public Integer getBu_ldy() { return bu_ldy; }
-    public void setBu_ldy(Integer bu_ldy) { this.bu_ldy = bu_ldy; }
+    public Integer getBuLdy() { return buLdy; }
+    public void setBuLdy(Integer buLdy) { this.buLdy = buLdy; }
 
-    public Integer getBu_lki_dt() { return bu_lki_dt; }
-    public void setBu_lki_dt(Integer bu_lki_dt) { this.bu_lki_dt = bu_lki_dt; }
+    public Integer getBuLkiDt() { return buLkiDt; }
+    public void setBuLkiDt(Integer buLkiDt) { this.buLkiDt = buLkiDt; }
 
-    public Integer getBu_lmn_dt() { return bu_lmn_dt; }
-    public void setBu_lmn_dt(Integer bu_lmn_dt) { this.bu_lmn_dt = bu_lmn_dt; }
+    public Integer getBuLmnDt() { return buLmnDt; }
+    public void setBuLmnDt(Integer buLmnDt) { this.buLmnDt = buLmnDt; }
 
-    public String getBu_lst() { return bu_lst; }
-    public void setBu_lst(String bu_lst) { this.bu_lst = bu_lst; }
+    public String getBuLst() { return buLst; }
+    public void setBuLst(String buLst) { this.buLst = buLst; }
 
-    public String getHs_cd() { return hs_cd; }
-    public void setHs_cd(String hs_cd) { this.hs_cd = hs_cd; }
+    public String getHsCd() { return hsCd; }
+    public void setHsCd(String hsCd) { this.hsCd = hsCd; }
 
-    public String getHs_km_rn() { return hs_km_rn; }
-    public void setHs_km_rn(String hs_km_rn) { this.hs_km_rn = hs_km_rn; }
+    public String getHsKmRn() { return hsKmRn; }
+    public void setHsKmRn(String hsKmRn) { this.hsKmRn = hsKmRn; }
 
-    public String getHs_ki() { return hs_ki; }
-    public void setHs_ki(String hs_ki) { this.hs_ki = hs_ki; }
+    public String getHsKi() { return hsKi; }
+    public void setHsKi(String hsKi) { this.hsKi = hsKi; }
 
-    public Double getHs_no_ki() { return hs_no_ki; }
-    public void setHs_no_ki(Double hs_no_ki) { this.hs_no_ki = hs_no_ki; }
+    public Double getHsNoKi() { return hsNoKi; }
+    public void setHsNoKi(Double hsNoKi) { this.hsNoKi = hsNoKi; }
 
-    public Double getHs_tuma() { return hs_tuma; }
-    public void setHs_tuma(Double hs_tuma) { this.hs_tuma = hs_tuma; }
+    public Double getHsTuma() { return hsTuma; }
+    public void setHsTuma(Double hsTuma) { this.hsTuma = hsTuma; }
 
-    public Double getHs_keta() { return hs_keta; }
-    public void setHs_keta(Double hs_keta) { this.hs_keta = hs_keta; }
+    public Double getHsKeta() { return hsKeta; }
+    public void setHsKeta(Double hsKeta) { this.hsKeta = hsKeta; }
 
-    public String getHus_g_set() { return hus_g_set; }
-    public void setHus_g_set(String hus_g_set) { this.hus_g_set = hus_g_set; }
+    public String getHusGSet() { return husGSet; }
+    public void setHusGSet(String husGSet) { this.husGSet = husGSet; }
 
-    public String getBu_nkatu() { return bu_nkatu; }
-    public void setBu_nkatu(String bu_nkatu) { this.bu_nkatu = bu_nkatu; }
+    public String getBuNkatu() { return buNkatu; }
+    public void setBuNkatu(String buNkatu) { this.buNkatu = buNkatu; }
 }

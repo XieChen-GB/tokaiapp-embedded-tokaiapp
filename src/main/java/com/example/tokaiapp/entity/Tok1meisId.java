@@ -10,59 +10,59 @@ import jakarta.persistence.Embeddable;
 public class Tok1meisId implements Serializable {
 
     @Column(name = "jyu_ji_cd")
-    private String jyu_ji_cd;
+    private String jyuJiCd;
 
     @Column(name = "an_no")
-    private String an_no;
+    private String anNo;
 
     @Column(name = "bu_no")
-    private String bu_no;
+    private String buNo;
 
     @Column(name = "ur_no")
-    private String ur_no;
+    private String urNo;
 
     @Column(name = "meik_no")
-    private String meik_no;
+    private String meikNo;
 
     public Tok1meisId() {}
 
-    public Tok1meisId(String jyu_ji_cd, String an_no, String bu_no, String ur_no, String meik_no) {
-        this.jyu_ji_cd = jyu_ji_cd;
-        this.an_no = an_no;
-        this.bu_no = bu_no;
-        this.ur_no = ur_no;
-        this.meik_no = meik_no;
+    public Tok1meisId(String jyuJiCd, String anNo, String buNo, String urNo, String meikNo) {
+        this.jyuJiCd = jyuJiCd;
+        this.anNo = anNo;
+        this.buNo = buNo;
+        this.urNo = urNo;
+        this.meikNo = meikNo;
     }
 
-    public String getJyu_ji_cd() { return jyu_ji_cd; }
-    public void setJyu_ji_cd(String jyu_ji_cd) { this.jyu_ji_cd = jyu_ji_cd; }
+    public String getJyuJiCd() { return jyuJiCd; }
+    public void setJyuJiCd(String jyuJiCd) { this.jyuJiCd = jyuJiCd; }
 
-    public String getAn_no() { return an_no; }
-    public void setAn_no(String an_no) { this.an_no = an_no; }
+    public String getAnNo() { return anNo; }
+    public void setAnNo(String anNo) { this.anNo = anNo; }
 
-    public String getBu_no() { return bu_no; }
-    public void setBu_no(String bu_no) { this.bu_no = bu_no; }
+    public String getBuNo() { return buNo; }
+    public void setBuNo(String buNo) { this.buNo = buNo; }
 
-    public String getUr_no() { return ur_no; }
-    public void setUr_no(String ur_no) { this.ur_no = ur_no; }
+    public String getUrNo() { return urNo; }
+    public void setUrNo(String urNo) { this.urNo = urNo; }
 
-    public String getMeik_no() { return meik_no; }
-    public void setMeik_no(String meik_no) { this.meik_no = meik_no; }
+    public String getMeikNo() { return meikNo; }
+    public void setMeikNo(String meikNo) { this.meikNo = meikNo; }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Tok1meisId that = (Tok1meisId) o;
-        return Objects.equals(jyu_ji_cd, that.jyu_ji_cd)
-                && Objects.equals(an_no, that.an_no)
-                && Objects.equals(bu_no, that.bu_no)
-                && Objects.equals(ur_no, that.ur_no)
-                && Objects.equals(meik_no, that.meik_no);
+        return Objects.equals(jyuJiCd, that.jyuJiCd)
+                && Objects.equals(anNo, that.anNo)
+                && Objects.equals(buNo, that.buNo)
+                && Objects.equals(urNo, that.urNo)
+                && Objects.equals(meikNo, that.meikNo);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(jyu_ji_cd, an_no, bu_no, ur_no, meik_no);
+        return Objects.hash(jyuJiCd, anNo, buNo, urNo, meikNo);
     }
 }
